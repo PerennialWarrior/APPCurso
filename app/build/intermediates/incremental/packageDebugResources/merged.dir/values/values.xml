@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="administrativas">
+        <item>Administracin de Empresas</item>
+        <item>Contaduría Pública</item>
+        <item>Mercadeo y Negocios Internacionales</item>
+    </string-array>
+    <string-array name="artes">
+        <item>Publicidad en Medios Digitales</item>
+        <item>Cine</item>
+        <item>Diseño de la Comunicación Gráfica</item>
+    </string-array>
+    <string-array name="basicas">
+        <item>Administración Ambiental</item>
+    </string-array>
+    <string-array name="facultad">
+        <item>Facultad de Ciencias Administrativas</item>
+        <item>Facultad de Ciencias Básicas</item>
+        <item>Facultad de Comunicación y Ciencias Sociales</item>
+        <item>Facultad de Humanidades y Artes</item>
+        <item>Facultad de Ingeniería</item>
+    </string-array>
+    <string-array name="ingenieria">
+        <item>Ingeniería de Datos e Inteligencia Artificial</item>
+        <item>Ingeniería de Manufactura</item>
+        <item>Ingeniería Empresarial</item>
+        <item>Diseño Industrial</item>
+        <item>Ingeniería Ambiental</item>
+        <item>Ingeniería Biomédica</item>
+        <item>Ingeniería Eléctrica</item>
+        <item>Ingeniería Electrónica y Telecomunicaciones</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería Informática</item>
+        <item>Ingeniería Mecánica </item>
+        <item>Ingeniería Mecatrónica</item>
+        <item>Ingeniería Multimedia</item>
+    </string-array>
+    <string-array name="rol">
+        <item>Estudiante</item>
+        <item>Profesor</item>
+    </string-array>
+    <string-array name="sociales">
+        <item>Comunicación Social y Periodismo</item>
+        <item>Economía</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">APPCurso</string>
+    <style name="Theme.APPCurso" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

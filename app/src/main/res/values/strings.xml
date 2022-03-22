@@ -1,3 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">APPCurso</string>
+
+    <string-array name="facultad">
+        <item>Facultad de Ciencias Administrativas</item>
+        <item>Facultad de Ciencias Básicas</item>
+        <item>Facultad de Comunicación y Ciencias Sociales</item>
+        <item>Facultad de Humanidades y Artes</item>
+        <item>Facultad de Ingeniería</item>
+    </string-array>
+
+    <string-array name="administrativas">
+        <item>Administracin de Empresas</item>
+        <item>Contaduría Pública</item>
+        <item>Mercadeo y Negocios Internacionales</item>
+    </string-array>
+
+    <string-array name="basicas">
+        <item>Administración Ambiental</item>
+    </string-array>
+
+    <string-array name="sociales">
+        <item>Comunicación Social y Periodismo</item>
+        <item>Economía</item>
+    </string-array>
+
+    <string-array name="artes">
+        <item>Publicidad en Medios Digitales</item>
+        <item>Cine</item>
+        <item>Diseño de la Comunicación Gráfica</item>
+    </string-array>
+
+    <string-array name="ingenieria">
+        <item>Ingeniería de Datos e Inteligencia Artificial</item>
+        <item>Ingeniería de Manufactura</item>
+        <item>Ingeniería Empresarial</item>
+        <item>Diseño Industrial</item>
+        <item>Ingeniería Ambiental</item>
+        <item>Ingeniería Biomédica</item>
+        <item>Ingeniería Eléctrica</item>
+        <item>Ingeniería Electrónica y Telecomunicaciones</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería Informática</item>
+        <item>Ingeniería Mecánica </item>
+        <item>Ingeniería Mecatrónica</item>
+        <item>Ingeniería Multimedia</item>
+    </string-array>
+
+    <string-array name="rol">
+        <item>Estudiante</item>
+        <item>Profesor</item>
+    </string-array>
+
 </resources>

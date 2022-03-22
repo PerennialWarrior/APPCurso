@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <Spinner
+        android:id="@+id/spinnerRol"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:layout_x="24dp"
+        android:layout_y="410dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPrograma"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:layout_x="24dp"
+        android:layout_y="290dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCursos"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:layout_x="24dp"
+        android:layout_y="350dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Registro Cuenta"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="160dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Hola usuario, ten un gran viaje"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btnAcceder"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="470dp"
+        android:background="#000000"
+        android:text="Acceder"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerFacultad"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:layout_x="24dp"
+        android:layout_y="230dp" />
+</AbsoluteLayout>
