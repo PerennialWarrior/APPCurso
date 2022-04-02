@@ -27,6 +27,9 @@
         android:theme="@style/Theme.APPCurso"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.appcurso.HomeEst"
+            android:exported="false" />
+        <activity
             android:name="com.example.appcurso.Registro"
             android:exported="false" />
         <activity

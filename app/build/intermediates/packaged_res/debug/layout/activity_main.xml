@@ -125,4 +125,12 @@
         android:textSize="16sp"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/btnTestQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="263dp"
+        android:layout_y="43dp"
+        android:text="QR" />
+
 </AbsoluteLayout>

@@ -13,7 +13,7 @@ import android.view.View.OnClickListener;
 public class MainActivity extends AppCompatActivity {
 
     private EditText etNombre, etApellido, etCedula, etUsuario, etContrasena, etContrasena2;
-    private Button btnContinuar;
+    private Button btnContinuar, btnQR;
     private TextView txtLogin;
 
     @Override
@@ -29,6 +29,18 @@ public class MainActivity extends AppCompatActivity {
         etContrasena2 = (EditText) findViewById(R.id.etContrasena2);
         btnContinuar = (Button) findViewById(R.id.btnContinuar);
         txtLogin = (TextView) findViewById(R.id.txtLogin);
+
+        //prueba QR
+
+        btnQR = (Button)findViewById(R.id.btnTestQR);
+
+        btnQR.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, HomeEst.class);
+                startActivity(i);
+            }
+        });
 
         btnContinuar.setOnClickListener(new OnClickListener() {
             @Override
